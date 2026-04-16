@@ -231,19 +231,19 @@ gitGraph
 requirementDiagram
     requirement review_traceability {
       id: R1
-      text: 每个审看版本都必须有问题清单与责任人
+      text: "每个审看版本都必须有问题清单与责任人"
       risk: high
       verifymethod: test
     }
     requirement release_gate {
       id: R2
-      text: 发行版必须满足审批完成和版本可回溯
+      text: "发行版必须满足审批完成和版本可回溯"
       risk: high
       verifymethod: inspection
     }
     requirement promo_alignment {
       id: R3
-      text: 宣发物料必须与最终发行风格一致
+      text: "宣发物料必须与最终发行风格一致"
       risk: medium
       verifymethod: analysis
     }
